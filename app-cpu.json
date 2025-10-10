@@ -1,6 +1,6 @@
 {
-  "id": "cookbook-jupyter-template-cpu",
-  "version": "0.0.3",
+  "id": "werc-tacc",
+  "version": "0.0.4",
   "description": "Jupyter Lab environment for CPU",
   "owner": "${apiUserId}",
   "enabled": true,
