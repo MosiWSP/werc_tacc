@@ -6,9 +6,9 @@ set -xe
 # COOKBOOK_NAME: Name of the cookbook
 # COOKBOOK_CONDA_ENV: Name of the conda environment
 # IS_GPU_JOB: Boolean value to indicate if the job is a GPU job. If true, it will load the CUDA module
-export GIT_REPO_URL="https://github.com/In-For-Disaster-Analytics/Cookbook-Jupyter-Template.git"
-export COOKBOOK_NAME="cookbook-template-jupyter"
-export COOKBOOK_CONDA_ENV="example"
+export GIT_REPO_URL="https://github.com/MosiWSP/werc_tacc.git"
+export COOKBOOK_NAME="werc_tacc_cookbook"
+export COOKBOOK_CONDA_ENV="werc"
 IS_GPU_JOB=false
 
 
