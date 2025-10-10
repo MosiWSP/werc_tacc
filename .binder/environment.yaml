@@ -5,3 +5,15 @@ dependencies:
   - ipywidgets
   - ipykernel
   - jupyterlab
+  - numpy
+  - matplotlib
+  - xarray
+  - pandas
+  - cartopy
+  - rioxarray
+  - geopandas
+  - pillow
+  - scipy
+  - seaborn
+  - shapely
+  - pyproj
