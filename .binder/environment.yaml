@@ -2,18 +2,33 @@ name: llm
 channels:
   - conda-forge
 dependencies:
-  - ipywidgets
-  - ipykernel
+- python=3.10
   - jupyterlab
-  - numpy
-  - matplotlib
-  - xarray
-  - pandas
-  - cartopy
-  - rioxarray
+  - ipykernel
+  - ipywidgets
+  - asf_search
+  - contextily
+  - dem-stitcher
   - geopandas
-  - pillow
-  - scipy
-  - seaborn
-  - shapely
+  - h5py
+  - h5netcdf
+  - ipyleaflet
+  - matplotlib
+  - netcdf4
+  - numpy
+  - pandas
   - pyproj
+  - rasterio
+  - requests
+  - rioxarray
+  - s3fs
+  - scipy
+  - scikit-image
+  - shapely
+  - xarray
+  - zarr
+  - pip:
+    - tile-mate
+    - opera-utils
+    - git+https://github.com/insarlab/MintPy.git
+    - git+https://github.com/opera-adt/disp-xr.git
