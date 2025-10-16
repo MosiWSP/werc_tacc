@@ -2,12 +2,14 @@ name: llm
 channels:
   - conda-forge
 dependencies:
-- python=3.10
+  - python=3.10
   - jupyterlab
   - ipykernel
   - ipywidgets
+  - ipympl
   - asf_search
   - contextily
+  - dask
   - dem-stitcher
   - geopandas
   - h5py
